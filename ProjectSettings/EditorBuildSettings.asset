@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SideScrollerUI.unity
     guid: df82463dbfb59ac46b366349769fb266
+  - enabled: 1
+    path: Assets/Scenes/Loose.unity
+    guid: 4f0cea952ff0c2a4da515c76212f99c0
   m_configObjects: {}
