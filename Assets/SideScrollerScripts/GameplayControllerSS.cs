@@ -44,6 +44,11 @@ public class GameplayControllerSS : MonoBehaviour
         }
 
         TimeForCompletion -= Time.deltaTime;
+        if (TimeForCompletion < 0)
+        {
+            SceneManager.LoadScene("Loose");
+        }
+
         if (UITimeDisplay != null)
         {
             UITimeDisplay.text = TimeForCompletion.ToString("N"); 
