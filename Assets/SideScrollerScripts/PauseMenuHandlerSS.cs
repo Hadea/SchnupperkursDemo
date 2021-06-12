@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenuHandlerSS : MonoBehaviour
 {
+    private void Start()
+    {
+        gameObject.SetActive(false);
+    }
+
     public void ReturnToGame()
     {
         gameObject.SetActive(false);
