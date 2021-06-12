@@ -8,9 +8,11 @@ public class GameplayControllerSS : MonoBehaviour
 {
     private GameObject PauseMenuCanvas;
     private Text UICoinDisplay;
+    private Text UITimeDisplay;
 
     public static GameplayControllerSS controller;
     private int collectedCoins = 0;
+    [SerializeField] private float TimeForCompletion;
 
     private void Awake()
     {
@@ -24,6 +26,7 @@ public class GameplayControllerSS : MonoBehaviour
         {
             PauseMenuCanvas = GameObject.Find("PauseMenuUI");
             UICoinDisplay = GameObject.Find("CoinDisplay").GetComponent<Text>();
+            UITimeDisplay = GameObject.Find("TimerDisplay").GetComponent<Text>();
         };
     }
 
@@ -38,6 +41,12 @@ public class GameplayControllerSS : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             PauseMenuCanvas.gameObject.SetActive(!PauseMenuCanvas.gameObject.activeSelf);
+        }
+
+        TimeForCompletion -= Time.deltaTime;
+        if (UITimeDisplay != null)
+        {
+            UITimeDisplay.text = TimeForCompletion.ToString("N"); 
         }
     }
 }

@@ -130,6 +130,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8460620794501625823, guid: fb24a4e99963099499369884e6f86a78, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460620794501625823, guid: fb24a4e99963099499369884e6f86a78, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460620794501625823, guid: fb24a4e99963099499369884e6f86a78, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460620794501625823, guid: fb24a4e99963099499369884e6f86a78, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -210
+      objectReference: {fileID: 0}
     - target: {fileID: 8460620794759001634, guid: fb24a4e99963099499369884e6f86a78, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -217,6 +233,26 @@ PrefabInstance:
     - target: {fileID: 8460620794759001663, guid: fb24a4e99963099499369884e6f86a78, type: 3}
       propertyPath: m_Name
       value: PauseMenuUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460620794759001663, guid: fb24a4e99963099499369884e6f86a78, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460620795146855983, guid: fb24a4e99963099499369884e6f86a78, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460620795146855983, guid: fb24a4e99963099499369884e6f86a78, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460620795146855983, guid: fb24a4e99963099499369884e6f86a78, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460620795146855983, guid: fb24a4e99963099499369884e6f86a78, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb24a4e99963099499369884e6f86a78, type: 3}
